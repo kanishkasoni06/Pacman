@@ -8,12 +8,11 @@
     font-size: 2em;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 .header{
     font-weight: bold;
     font-size: larger;
-    padding: 20px;
 }
 .boxStart{
     position: relative;

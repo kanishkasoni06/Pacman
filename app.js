@@ -23,7 +23,7 @@ const g = {
   x: " ",
   y: " ",
   h: 50,
-  size: 20,
+  size: 10,
   ghosts: 3,
   inplay: false,
   startGhost:11
@@ -318,6 +318,9 @@ function starterGame(){
 
 function playerWins(){
   player.gamewin=true;
+      window.cancelAnimationFrame(player.play);
+    g.inplay=false;
+    player.pause=true;
   startGame.style.display='block';
 }
 
