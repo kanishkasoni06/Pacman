@@ -1,11 +1,18 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    background-color: black;
 }
 .scoreBoard{
     text-align: center;
     font-size: 2em;
     background-color: black;
     color: white;
+    padding: 20px;
+}
+.header{
+    font-weight: bold;
+    font-size: larger;
     padding: 20px;
 }
 .boxStart{
@@ -32,7 +39,10 @@
     width: 50%;
     display: block;
     padding: 20px;
-    margin: auto;
+    border: 2px Black solid;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px auto;
 }
 .eyes{
     position: absolute;
@@ -111,6 +121,11 @@
     width: 100%;
     height: 100%;
     background-color: lightskyblue;
+}
+.hideout{
+    background-color: #ddd;
+    width: 100%;
+    height: 100%;
 }
 .grid{
     margin: auto;
