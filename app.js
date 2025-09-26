@@ -23,7 +23,7 @@ const g = {
   x: " ",
   y: " ",
   h: 50,
-  size: 10,
+  size: 20,
   ghosts: 3,
   inplay: false,
   startGhost:11
