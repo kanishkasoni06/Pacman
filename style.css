@@ -27,6 +27,13 @@
     z-index: 3;
 
 }
+.btn{
+    font-size: 2em;
+    width: 50%;
+    display: block;
+    padding: 20px;
+    margin: auto;
+}
 .eyes{
     position: absolute;
     display: inline-block;
